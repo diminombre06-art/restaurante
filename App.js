@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 // CAMBIA 'localhost' por tu IP para usar con el celular
-const socket = io('https://restaurante-production-305e.up.railway.app', {
+const socket = io('restaurante-production-7d00.up.railway.app', {
   transports: ['websocket', 'polling']
 });
 
